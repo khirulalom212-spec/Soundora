@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khirul Shop | Mini E-commerce</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Khirul Mini E-commerce</h1>
+      <p>ভালো মানের গ্যাজেটস — সরাসরি আপনার হাতে।</p>
+      <a class="btn" href="#products">পণ্য দেখুন</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="products" class="section container">
+      <h2>আমাদের পণ্য</h2>
+      <div class="products">
+        <article class="card">
+          <h3>Bluetooth Airphone</h3>
+          <p>ওয়ারলেস, ক্লিয়ার সাউন্ড, লং ব্যাটারি ব্যাকআপ।</p>
+          <p class="price">৳1,200</p>
+          <button class="order-btn" data-product="Bluetooth Airphone">অর্ডার করুন</button>
+        </article>
+
+        <article class="card">
+          <h3>Power Bank</h3>
+          <p>১০,০০০ mAh, ফাস্ট চার্জ সাপোর্ট।</p>
+          <p class="price">৳1,500</p>
+          <button class="order-btn" data-product="Power Bank">অর্ডার করুন</button>
+        </article>
+
+        <article class="card">
+          <h3>Mobile Case</h3>
+          <p>টেকসই, স্টাইলিশ, ফোনকে নিরাপদ রাখে।</p>
+          <p class="price">৳350</p>
+          <button class="order-btn" data-product="Mobile Case">অর্ডার করুন</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="container">
+        <h2>যোগাযোগ করুন</h2>
+        <p>অর্ডার করতে বা প্রশ্ন থাকলে নিচের যেকোনো মাধ্যমে যোগাযোগ করুন:</p>
+        <div class="contact-links">
+          <a href="mailto:khirulalom212@gmail.com">📧 Email করুন</a>
+          <a href="tel:+8801312346017">📞 Call করুন</a>
+          <a href="https://wa.me/8801312346017" target="_blank" rel="noopener noreferrer">💬 WhatsApp করুন</a>
+        </div>
+        <p id="selected-product" class="selected-product"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Khirul Mini E-commerce</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
